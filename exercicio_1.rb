@@ -1,1 +1,1 @@
-puts gets.to_i ** 2
+puts gets.to_i ** 2 #eleva um numero ao quadrado

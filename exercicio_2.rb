@@ -1,9 +1,10 @@
 def zeros_da_funcao(a, b, c)
-  delta = (b ** 2) - (4 * a * c)
+  #calcula os zeros da funcao
+  delta = (b ** 2) - (4 * a * c) #calcula o delta
   if delta > 0
-    [(- b + Math.sqrt(delta)) / (2 * a), ((- b - Math.sqrt(delta)) / (2 * a))]
+    [(- b + Math.sqrt(delta)) / (2 * a), ((- b - Math.sqrt(delta)) / (2 * a))] #calcula as duas raizes
   elsif delta == 0
-    (- b) / (2 * a)
+    (- b) / (2 * a) #calcula a unica raiz
   elsif delta < 0
     false
   end
